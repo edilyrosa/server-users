@@ -18,7 +18,9 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    padding-top: 10%;
 }
 
 .user-card {
