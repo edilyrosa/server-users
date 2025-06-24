@@ -59,4 +59,42 @@ h1 {
     color: #555;
     text-align: justify;
 }
+
+/* form styles */
+.form-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="url"],
+        select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
 </style>
